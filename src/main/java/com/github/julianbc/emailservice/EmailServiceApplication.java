@@ -20,9 +20,9 @@ public class EmailServiceApplication {
 //    @Bean
 //    CommandLineRunner executeWelcomeTestEmail(SendEmailService sendEmailService) {
 //        return args -> {
-//            String toEmail = "julianbuitragocharry2006@gmail.com";
+//            String toEmail = "";
 //            Map<String, String> data = new HashMap<>();
-//            data.put("name", "Julian");
+//            data.put("name", "");
 //
 //            sendEmailService.execute(toEmail, EmailType.WELCOME, data);
 //        };
