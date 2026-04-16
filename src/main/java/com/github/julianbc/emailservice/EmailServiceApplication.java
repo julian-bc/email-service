@@ -17,15 +17,14 @@ public class EmailServiceApplication {
         SpringApplication.run(EmailServiceApplication.class, args);
     }
 
-    @Bean
-    CommandLineRunner executeWelcomeTestEmail(SendEmailService sendEmailService) {
-        return args -> {
-            String toEmail = "julianbuitragocharry2006@gmail.com";
-            Map<String, String> data = new HashMap<>();
-            data.put("name", "Julian");
-
-            sendEmailService.execute(toEmail, EmailType.WELCOME, data);
-        };
-    }
-
+//    @Bean
+//    CommandLineRunner executeWelcomeTestEmail(SendEmailService sendEmailService) {
+//        return args -> {
+//            String toEmail = "julianbuitragocharry2006@gmail.com";
+//            Map<String, String> data = new HashMap<>();
+//            data.put("name", "Julian");
+//
+//            sendEmailService.execute(toEmail, EmailType.WELCOME, data);
+//        };
+//    }
 }

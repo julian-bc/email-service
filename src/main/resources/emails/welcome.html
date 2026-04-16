@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight Email Service</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            color: #d1d5db;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: #161b22;
+            border: 2px solid #30363d;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .header {
+            padding: 30px 40px 10px 40px;
+            text-align: center;
+            border-bottom: 2px solid #30363d;
+            background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+        }
+
+        .service-name {
+            color: #58a6ff;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 0;
+            text-shadow: 0 0 10px rgba(88, 166, 255, 0.5);
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .knight-image {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 30px;
+            filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
+        }
+
+        h1 {
+            font-size: 26px;
+            color: #f0f6fc;
+            margin: 0 0 20px 0;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #8b949e;
+            margin-bottom: 20px;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .highlight {
+            color: #58a6ff;
+            font-weight: 600;
+        }
+
+        .footer {
+            background-color: #0d1117;
+            padding: 20px 40px;
+            font-size: 12px;
+            color: #6e7681;
+            text-align: center;
+            border-top: 2px solid #30363d;
+        }
+
+        .footer strong {
+            color: #58a6ff;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <p class="service-name">Hollow Knight Email Service</p>
+    </div>
+
+    <div class="content">
+        <img src="https://hollow-knight-fansite.vercel.app/images/The_Knight.png" alt="The Knight" class="knight-image">
+
+        <h1>Bienvenido, querido ${name}</h1>
+
+        <p class="description">
+            Te has adentrado en el reino de <span class="highlight">Email Service</span>, tu Aplicación Spring Boot que ofrece un servicio de envío de correos electrónicos con integración con Gmail.
+        </p>
+    </div>
+
+    <div class="footer">
+        Powered by <strong>Spring Boot</strong> & <strong>Jakarta Mail</strong><br>
+        Explorando los confines del código.
+    </div>
+</div>
+</body>
+</html>
