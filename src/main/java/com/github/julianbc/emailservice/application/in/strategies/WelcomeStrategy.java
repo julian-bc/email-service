@@ -1,4 +1,4 @@
-package com.github.julianbc.emailservice.domain.strategies;
+package com.github.julianbc.emailservice.application.in.strategies;
 
 import com.github.julianbc.emailservice.domain.EmailStrategy;
 import com.github.julianbc.emailservice.domain.EmailType;
